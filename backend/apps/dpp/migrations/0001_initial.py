@@ -3,7 +3,8 @@
 from django.conf import settings
 from django.db import migrations, models
 import django.db.models.deletion
-import encrypted_model_fields.fields
+# Tymczasowo usunięte - problem z kluczem szyfrowania
+# import encrypted_model_fields.fields
 import uuid
 
 
@@ -124,7 +125,7 @@ class Migration(migrations.Migration):
                 ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False)),
                 ('name', models.CharField(help_text='Product name', max_length=255)),
                 ('qr_code', models.CharField(help_text='Unique QR code for product identification', max_length=100, unique=True)),
-                ('sustainability_data', encrypted_model_fields.fields.EncryptedTextField(help_text='Encrypted text data containing sustainability information in compliance with EU regulations')),
+                ('sustainability_data', models.TextField(help_text='Text data containing sustainability information in compliance with EU regulations')),
                 ('created_at', models.DateTimeField(auto_now_add=True)),
                 ('updated_at', models.DateTimeField(auto_now=True)),
             ],

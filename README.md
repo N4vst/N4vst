@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Digital Product Passport (DPP) Application
 
 A comprehensive solution for implementing EU-compliant Digital Product Passports following Sylius-inspired API-first design principles.
@@ -154,3 +155,21 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Commit your changes (`git commit -m 'Add some amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
+=======
+## Hi there 👋
+
+<!--
+**N4vst/n4vst** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+>>>>>>> 4e0c2974ac62dbdea5371e9b4a85105e80c992ec

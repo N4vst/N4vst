@@ -66,7 +66,7 @@ services:
       - POSTGRES_HOST=db
       - POSTGRES_PORT=5432
       - REDIS_URL=redis://redis:6379/1
-      - FIELD_ENCRYPTION_KEY=rYREf8c5TT-V7D_dj49COq3T-B7c2SualwfOWD1Ypeo=
+      - FIELD_ENCRYPTION_KEY=Q21qcGRsak1oczdNZDQyV0JCSThMNXN6Ym05U0NOd2ZkbGc=
       - CORS_ALLOWED_ORIGINS=http://localhost:3000,http://frontend:3000
     command: >
       bash -c "python manage.py migrate &&

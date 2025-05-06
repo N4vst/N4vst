@@ -2,7 +2,8 @@ from django.db import models
 from django.utils.translation import gettext_lazy as _
 from django.contrib.auth import get_user_model
 from apps.core.models import TimeStampedModel
-from encrypted_model_fields.fields import EncryptedTextField
+# Tymczasowo zakomentowane - problem z kluczem szyfrowania
+# from encrypted_model_fields.fields import EncryptedTextField
 import uuid
 import json
 
@@ -299,8 +300,9 @@ class ProductPassport(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=255, help_text="Product name")
     qr_code = models.CharField(max_length=100, unique=True, help_text="Unique QR code for product identification")
-    sustainability_data = EncryptedTextField(
-        help_text="Encrypted text data containing sustainability information in compliance with EU regulations"
+    # Tymczasowo zamienione na TextField - problem z kluczem szyfrowania
+    sustainability_data = models.TextField(
+        help_text="Text data containing sustainability information in compliance with EU regulations"
     )
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
