@@ -1,0 +1,77 @@
+/**
+ * DPP Connector Admin CSS
+ */
+
+.dpp-admin-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.dpp-admin-content__main {
+    flex: 2;
+    margin-right: 20px;
+}
+
+.dpp-admin-content__sidebar {
+    flex: 1;
+    min-width: 250px;
+}
+
+.dpp-card {
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.dpp-card h2 {
+    margin-top: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.dpp-sync-status {
+    margin-bottom: 15px;
+}
+
+.dpp-sync-status p {
+    margin-bottom: 15px;
+}
+
+/* Product tab styling */
+#dpp_product_data h4 {
+    margin: 1em 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Status indicators */
+.dpp-status {
+    display: inline-block;
+    padding: 3px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.dpp-status--synced {
+    background-color: #c6e1c6;
+    color: #5b841b;
+}
+
+.dpp-status--unsynced {
+    background-color: #f8dda7;
+    color: #94660c;
+}
+
+.dpp-status--error {
+    background-color: #eba3a3;
+    color: #761919;
+} 
