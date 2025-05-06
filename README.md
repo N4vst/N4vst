@@ -1,6 +1,6 @@
 # Digital Product Passport (DPP) Application
 
-A comprehensive solution for implementing EU-compliant Digital Product Passports following Sylius-inspired API-first design principles.
+A comprehensive solution for implementing EU-compliant Digital Product Passports following API-first design principles.
 
 ## Features
 
